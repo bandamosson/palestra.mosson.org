@@ -1,7 +1,7 @@
 {
-    "title": "Full Slider",
-    "name": "startbootstrap-full-slider",
-    "version": "4.1.1",
+    "title": "Portale Palestra ",
+    "name": "palestra.mosson.org",
+    "version": "0.0.1",
     "description": "A full page image slider HTML template built with Bootstrap",
     "keywords": [
         "css",
@@ -11,19 +11,19 @@
         "theme",
         "template"
     ],
-    "homepage": "https://startbootstrap.com/template-overviews/full-slider",
+    "homepage": "https://palestra.mosson.org",
     "bugs": {
-        "url": "https://github.com/BlackrockDigital/startbootstrap-full-slider/issues",
-        "email": "feedback@startbootstrap.com"
+        "url": "https://github.com/bandamosson/palestra.mosson.org/issues",
+        "email": "palestra@mosson.org"
     },
     "license": "MIT",
-    "author": "Start Bootstrap",
+    "author": "Mosson Drum & Bugle Corps",
     "contributors": [
-        "David Miller (http://davidmiller.io/)"
+        "Mirco Attocchi (http://attocchi.it/)"
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/BlackrockDigital/startbootstrap-full-slider.git"
+        "url": "https://github.com/bandamosson/palestra.mosson.org.git"
     },
     "dependencies": {
         "bootstrap": "4.1.1",
