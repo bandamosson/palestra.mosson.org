@@ -29,7 +29,15 @@
       <!--<f7-list-item link="/form/" title="Form"></f7-list-item>-->
     <!--</f7-list>-->
     <f7-block-title>Apertura Manuale</f7-block-title>
-    <f7-block strong>
+    <f7-list>
+      <f7-list-item title="Porta" smart-select :smart-select-params="{openIn: 'popover'}">
+        <select name="superhero" multiple>
+          <option value="1" selected>1 - Entrata lato Sud</option>
+          <option value="2">2 - Entrata lato Nord</option>
+        </select>
+      </f7-list-item>
+    </f7-list>
+    <f7-block>
       <f7-row>
         <f7-col width="100">
           <f7-button fill raised popup-open="#popup" icon-f7="unlock" icon-size="16"> Sblocca Porta</f7-button>
