@@ -1,0 +1,35 @@
+{
+  "edifici": [
+    {
+        "id": 1, 
+        "nome": "palestra mosson", 
+        "locali": [
+            { "id": 1, "nome": "palestra", "share": 0 },
+            { "id": 2, "nome": "palestra", "share": 0 }
+        ],
+        "accessi": [
+            { "id": 1, "nome": "entrata lato sud", "nfc": "", "links": { "locale": {"id": 1, "type": "locali"} } }
+        ]
+    },
+    {
+        "id": 1, 
+        "nome": "palestra zanè", 
+        "locali": [
+            { "id": 1, "nome": "palestra", "share": 3 },
+            { "id": 2, "nome": "tensostruttura", "share": 2 }
+        ],
+        "accessi": [
+            { "id": 1, "nome": "entrata principale", "nfc": "", "links": { "locale": {"id": 1, "type": "locali"} } },
+            { "id": 1, "nome": "entrata squadre/spogliatoi", "nfc": "", "links": { "locale": {"id": 1, "type": "locali"} } },
+            { "id": 1, "nome": "entrata lato sud", "nfc": "", "links": { "locale": {"id": 2, "type": "locali"} } }
+        ]
+    }
+  ],
+  "organizzazioni": [
+    { "id": 1, "nome": "comune cogollo", "postId": 1 }
+  ],
+  "accounts": [ 
+    { "nome": "test", "links": { "ruolo": {"id": 2, "type": "ruoli"} } } 
+],
+  "ruoli": []
+}
