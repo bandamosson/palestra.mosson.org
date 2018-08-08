@@ -7,7 +7,9 @@ import NotFoundPage from './pages/not-found.vue';
 import PanelLeftPage from './pages/panel-left.vue';
 import PanelRightPage from './pages/panel-right.vue';
 
-import Login from './pages/login.vue';
+import LoginPage from './pages/login.vue';
+import PalestrePage from './pages/palestre.vue';
+import CalendarioPage from './pages/calendario.vue';
 
 export default [
   {
@@ -35,11 +37,19 @@ export default [
     component: DynamicRoutePage,
   },
   {
-    path: '(.*)',
-    component: NotFoundPage,
+    path: '/login/',
+    component: LoginPage,
   },
   {
-    path: '/login/',
-    component: Login,
+    path: '/palestre/',
+    component: PalestrePage,
   },
+  {
+    path: '/calendario/',
+    component: CalendarioPage,
+  },
+  {
+    path: '(.*)',
+    component: NotFoundPage,
+  }
 ];
