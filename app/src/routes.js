@@ -7,6 +7,8 @@ import NotFoundPage from './pages/not-found.vue';
 import PanelLeftPage from './pages/panel-left.vue';
 import PanelRightPage from './pages/panel-right.vue';
 
+import Login from './pages/login.vue';
+
 export default [
   {
     path: '/',
@@ -35,5 +37,9 @@ export default [
   {
     path: '(.*)',
     component: NotFoundPage,
+  },
+  {
+    path: '/login/',
+    component: Login,
   },
 ];
