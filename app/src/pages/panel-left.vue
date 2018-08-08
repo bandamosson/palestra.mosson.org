@@ -19,7 +19,7 @@
         <!--<f7-icon f7="test" size="16"></f7-icon>-->
       <!--</f7-list-item>-->
     </f7-list>
-    <f7-block-title>---</f7-block-title>
+
     <f7-list>
       <f7-list-item link="/about/" title="?" view="#main-view" panel-close>
         <f7-icon f7="help" size="16"></f7-icon>
