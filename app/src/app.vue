@@ -22,12 +22,18 @@
     <f7-popup id="popup">
       <f7-view>
         <f7-page>
-          <f7-navbar title="Popup">
+          <f7-navbar title="Apertura">
             <f7-nav-right>
-              <f7-link popup-close>Close</f7-link>
+              <f7-link popup-close>Annulla</f7-link>
             </f7-nav-right>
           </f7-navbar>
-          <f7-block>Attendi sblocco apertura porta in corso...</f7-block>
+          <f7-block>
+            <p>Attendi sblocco apertura porta in corso...</p>
+            <p>
+              <f7-progressbar infinite></f7-progressbar>
+            </p>
+          </f7-block>
+          <!--<f7-icon material="login_fill"></f7-icon>-->
         </f7-page>
       </f7-view>
     </f7-popup>
