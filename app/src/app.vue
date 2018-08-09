@@ -18,7 +18,7 @@
     <!-- Main View -->
     <f7-view id="main-view" url="/" main></f7-view>
 
-    <!-- Popup -->
+<!--    &lt;!&ndash; Popup &ndash;&gt;
     <f7-popup id="popup">
       <f7-view>
         <f7-page>
@@ -33,10 +33,10 @@
               <f7-progressbar infinite></f7-progressbar>
             </p>
           </f7-block>
-          <!--<f7-icon material="login_fill"></f7-icon>-->
+          &lt;!&ndash;<f7-icon material="login_fill"></f7-icon>&ndash;&gt;
         </f7-page>
       </f7-view>
-    </f7-popup>
+    </f7-popup>-->
 
     <!-- Login Screen -->
     <f7-login-screen id="login-screen">
