@@ -141,7 +141,7 @@
         comandoOk: false,
         comandoErr: false,
         popupOpened: false,
-        url: 'http://multiot.telemar.it:1879/door/test/enable',
+        url: 'https://httpbin.org/get', // 'http://multiot.telemar.it:1879/door/test/enable',
         restResponse: ''
       };
     },
